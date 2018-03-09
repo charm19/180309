@@ -3,54 +3,15 @@
 <head>
   <title>WEB - CSS</title>
   <meta charset="utf-8">
-  <style>
-   body{
-     margin: 0;
-   }
-   h1{
-     border-bottom: 1px solid grey;
-     padding: 20px;
-     margin: 0;
-     text-align: center;
-   }
-   h3{
-     margin-top:0;
-   }
-   ol{
-     width: 100px;
-     border-right: 1px grey solid;
-     margin-top: 0;
-     padding-top: 30px;
-   }
-   #grid{
-     display: grid;
-     grid-template-columns: 150px 1fr;
-   }
-
-   #grid #article{
-     margin: 20px;
-     padding-left: 3px;
-   }
-   @media (max-width:350px) {
-     #grid{
-       display:block;
-     }
-     ol{
-       border-right: none;
-     }
-     h1{
-       border-bottom: none;
-       text-align: left;
-     }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <h1><a href="index.html">web</a></h1>
   <div id="grid">
   <ol>
-    <li> html </li>
-    <li> css </li>
-    <li> javaScript </li>
+    <li><a href="1.html">html</a></li>
+    <li><a href="2.html">css</a></li>
+    <li><a href="3.html">JavaScript</a></li>
   </ol>
   <div id="article">
    <h3>CSS</h3>
